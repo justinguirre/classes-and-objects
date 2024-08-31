@@ -79,6 +79,8 @@ int main() {
                 do {
                     cout << "Year*: ";
                     cin >> year;
+                    cin.clear();
+                    cin.ignore();
                 } while (year == 0);
                 cout << "Adding book..." << endl;
                 library.add(title, author, year);
