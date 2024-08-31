@@ -62,6 +62,7 @@ int main() {
         cout << "[4] Exit\n------------------------------" << endl;
         cout << "INPUT: ";
         cin >> option;
+        cin.clear();
         cin.ignore();
 
         switch (option) {
